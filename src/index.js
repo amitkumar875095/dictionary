@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 import App from './component/App';
 import { configureStore } from './store';
 import {Provider, provider} from 'react-redux';
+
  const store = configureStore();
  console.log(store.getState());
-
-
+  
+ 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store = {store}>

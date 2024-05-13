@@ -1,6 +1,6 @@
 import React from "react";
 import { fetchPost } from "../action/posts";
-
+import '../index.css'
 export default class Search extends React.Component {
   constructor(props){
     super(props);
@@ -19,14 +19,17 @@ export default class Search extends React.Component {
   render() {
         
     return (
+      <div>
+      <h1 className >My DICTONARY</h1>
         <div className="search">
-        <h1>My DICTONARY</h1>
+        
           
              <input type="text" className="textArea " onChange={this.handleChange} />
              <button className="searchButton" onClick={this.handleSearch}>
               Search
              </button>
            
+          </div>
           </div>
     )
   }

@@ -2,6 +2,10 @@
   /* border: 1px solid black; */
   box-sizing: border-box;
   font-family: sans-serif;
+  margin: 0px;
+}
+.dict{
+  background-color: aquamarine;
 }
 .search{
   display: flex;
@@ -16,6 +20,7 @@ width: 90vw;
   height: 5vh;
 }
 .component{
+  background-color: antiquewhite;
   display: flex;
   width: 100vw;
   height: auto;

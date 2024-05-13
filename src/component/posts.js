@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 export default class Posts extends Component {
   render() {
     const {posts} = this.props;
@@ -11,8 +10,8 @@ export default class Posts extends Component {
                   
                     <div className="component">
                        <div className="list">
-                          <div className="searchWord">{post.word}</div>
-                           <div className="searchMeaning">{post.meaning}</div>
+                          <div className="searchWord"><p> Word : {post.word}</p></div>
+                           <div className="searchMeaning"><p>Meaning: {post.meaning}</p></div>
                        </div>
                     </div>
 

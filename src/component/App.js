@@ -41,7 +41,7 @@ constructor(){
     return (
      <div className='dict'>
       <Search  dispatch = {this.props.dispatch}/>
-     <Posts posts = {posts}/>
+   
      <Posts posts = {this.state.back_post} />
      </div>
    
